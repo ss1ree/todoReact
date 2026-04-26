@@ -90,7 +90,9 @@ const TodoForm = () => {
                     <div className="control"> 
                         <input type="reset" 
                             className="button is-warning is-light" 
-                            value="Сброс" /> 
+                            value="Сброс"
+                            onClick={handleFormClear}
+                            /> 
                     </div> 
                     <div className="control"> 
                         <button type="submit"
